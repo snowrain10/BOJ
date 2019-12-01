@@ -1,4 +1,5 @@
 //BOJ 2754 학점 계산
+//학점간의 간격을 빨리 캐치하자
 //if ~ else if ~
 //소숫점 표현 with cout
 #include <iostream>
@@ -13,7 +14,7 @@ int main()
   //string으로 입력을 받는다.
   string grade;
   cin >> grade;
-  
+
   //출력은 소숫점이 들어가므로 double 형식
   double score = 0;
 
