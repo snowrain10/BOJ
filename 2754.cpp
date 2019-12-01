@@ -1,3 +1,6 @@
+//BOJ 2754 학점 계산
+//if ~ else if ~
+//소숫점 표현 with cout
 #include <iostream>
 #include <string>
 using namespace std;
