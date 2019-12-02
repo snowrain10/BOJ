@@ -13,12 +13,13 @@ int main()
   //나머지 그릇의 길이
   int j = s.size() - 1;
   while(j--) {
-//    if(s[i] != '(' && s[i] != ')')
-//      break;
+    //같은 모양일 경우 5를 더해준다.
     if(s[i] == s[i-1])
       height += 5;
+    //다른 모양일 경우 10을 더해준다.
     else
       height += 10;
+    //다음 그릇으로 이동
     i++;
   }
   cout << height << "\n";
