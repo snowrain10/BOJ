@@ -14,7 +14,7 @@ int main(int argc, char const *argv[]) {
     if(s[i] == 'A') a++;
     else b++;
   }
-  if(a == b) cout << "tie" << "\n";
+  if(a == b) cout << "Tie" << "\n";
   else if(a > b) cout << "A" << "\n";
   else cout << "B" << "\n";
   return 0;
