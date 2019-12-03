@@ -6,6 +6,14 @@ int main()
 {
   ios::sync_with_stdio(false);
   cin.tie(NULL);
-
+  int M, N;
+  cin >> M;
+  cin >> N;
+  int sum = 0, min = 1;
+  for(int i = 1; i < 10000; i++) {
+    if(M < i*i && N > i*i)
+      sum += i*i;
+  }
+  cout << sum << "\n";
   return 0;
 }
