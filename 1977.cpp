@@ -9,11 +9,22 @@ int main()
   int M, N;
   cin >> M;
   cin >> N;
-  int sum = 0, min = 1;
+  int sum = 0, min = 1, checkMin = 0, check = 0;
   for(int i = 1; i < 10000; i++) {
-    if(M < i*i && N > i*i)
+    if(M <= i*i && N >= i*i) {
+      if(!checkMin) {
+        min = i*i;
+        checkMin = 1;
+      }
       sum += i*i;
+      check = 1;
+    }
   }
-  cout << sum << "\n";
+  if(!check) {
+    cout << sum << "\n";
+    cout << min << "\n";
+  }
+  else
+    cout << "-1"; << "\n";
   return 0;
 }
