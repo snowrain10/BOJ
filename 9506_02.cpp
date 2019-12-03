@@ -1,4 +1,6 @@
 //BOJ 9506	약수들의 합
+//참고
+//https://jaemin8852.tistory.com/218
 #include <iostream>
 using namespace std;
 
