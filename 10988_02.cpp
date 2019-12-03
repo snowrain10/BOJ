@@ -19,4 +19,3 @@ int main(int argc, char const *argv[]) {
     cout << "1\n";
     return 0;
 }
-//틀렸습니다.
