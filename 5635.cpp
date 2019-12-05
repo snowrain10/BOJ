@@ -39,7 +39,7 @@ int main()
     }
     //max - 나이가 어린 사람
     cout << s[max].first << "\n";
-    //min - 나이가 어린 사람
+    //min - 나이가 많은 사람
     cout << s[min].first << "\n";
     return 0;
 }
