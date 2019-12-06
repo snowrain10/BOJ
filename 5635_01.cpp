@@ -16,6 +16,6 @@ int main()
     cin >> s[i].second.second >> s[i].second.first >> s[i].first.second >> s[i].first.first;
   }
   sort(s.begin, s.end);
-  cout << s[N-1].second.second << "\n" << s[0].second.second << "\n";
+  cout << s[n-1].second.second << "\n" << s[0].second.second << "\n";
   return 0;
 }
