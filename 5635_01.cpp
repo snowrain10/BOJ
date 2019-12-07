@@ -21,6 +21,7 @@ int main()
     cin >> s[i].second.second >> s[i].second.first >> s[i].first.second >> s[i].first.first;
   }
   //first부터 정렬이 되고 같으면 뒤에 인자(string이면 사전 순)로 정렬됨.
+  //https://blockdmask.tistory.com/64
   sort(s.begin(), s.end());
   //      n-1 제일 큰 수 - 나이가 적음         0 제일 작은 수 - 나이가 많음
   cout << s[n-1].second.second << "\n" << s[0].second.second << "\n";
