@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 #include<functional>
 
 using namespace std;
@@ -19,6 +20,7 @@ int main()
     // make_pair(a, b) : pair 생성
     v.push_back(make_pair(score, i+1));
   }
+  // sort -> <algorithm> include
   // vector를 내림차순로 정렬 -> greater<자료형>()
   // atom에서 gpp-complier에서는 > > 로 표기해야 함
   sort(v.begin(), v.end(), greater<pair<int, int> >());
