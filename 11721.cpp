@@ -12,7 +12,7 @@ int main()
     
     int len = str.size();
     for (int i = 0; i < len; i++) {
-        if (i % 10 == 0)
+        if (i % 10 == 0 && i != 0)
             cout << "\n";
         cout << str[i];
     }
